@@ -1,0 +1,32 @@
+{
+  "name": "AMDorenStatusSwitch",
+  "data": {
+    "key": "$.CurrencyConvertAPIModule.response.statusCode",
+    "value": null
+  },
+  "cases": [
+    {
+      "condition": {
+        "all": [
+          {
+            "fact": "$.CurrencyConvertAPIModule.response.statusCode",
+            "operator": "equal",
+            "value": 200
+          }
+        ]
+      },
+      "events": {
+        "execute": {
+          "responseBuilder": "AMDorenResponseSuccess"
+        }
+      }
+    }
+  ],
+  "default": {
+    "events": {
+      "execute": {
+        "responseBuilder": "AMDorenResponseError"
+      }
+    }
+  }
+}

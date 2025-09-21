@@ -1,0 +1,13 @@
+{
+  "statusCode": 200,
+  "data": {
+    "status": "success",
+    "metaData": {},
+    "result": {
+      "from": "USD",
+      "to": "INR",
+      "amount": 10,
+      "converted": 830.25
+    }
+  }
+}

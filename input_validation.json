@@ -1,0 +1,24 @@
+{
+  "name": "InputValidation",
+  "validationSchema": {
+    "from": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 3,
+      "pattern": "^[A-Z]{3}$"
+    },
+    "to": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 3,
+      "pattern": "^[A-Z]{3}$"
+    },
+    "amount": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "headerValidationSchema": {}
+}

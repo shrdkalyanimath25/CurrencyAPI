@@ -1,0 +1,16 @@
+{
+  "name": "CurrencyConvertAPIModule",
+  "type": "API Module",
+  "method": "POST",
+  "url": "https://ind-thomas.dev.hyperverge.co/v1/test/CurrencyConvertAPI",
+  "headers": {
+    "Content-Type": "application/json",
+    "appId": "{{appId}}",
+    "appKey": "{{appKey}}"
+  },
+  "inputValidation": "input_validation.json",
+  "responseSchema": {
+    "success": "response_success.json",
+    "error": "response_error.json"
+  }
+}
