@@ -11,8 +11,9 @@ You can convert any amount from one currency to another using this API.
 Change the "from", "to", or "amount" values to test different currencies:
 
 Example command:
-curl -X POST -H "Content-Type: application/json" -H "appId: YOUR_APP_ID" -H "appKey: YOUR_APP_KEY" -d "{\"from\":\"USD\",\"to\":\"INR\",\"amount\":10}" "https://ind-thomas.dev.hyperverge.co/v1/test/CurrencyConvertAPI"
+curl -X POST -H "Content-Type: application/json" -H "appId: biizep" -H "appKey: dibogezrelsss1ivbqcu" -d "{\"from\":\"USD\",\"to\":\"INR\",\"amount\":10}" "https://ind-thomas.dev.hyperverge.co/v1/test/CurrencyConvertAPI"
 
+- Run this command in command prompt
 - from: Source currency code (3 letters, e.g., USD)
 - to: Target currency code (3 letters, e.g., INR)
 - amount: Amount to convert
